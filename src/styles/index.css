@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "SCDeram1";
+  src:url("../assets/fonts/SCDream1.otf");
+}
+@font-face {
+  font-family: "SCDeram2";
+  src:url("../assets/fonts/SCDream2.otf");
+}
+@font-face {
+  font-family: "SCDeram3";
+  src:url("../assets/fonts/SCDream3.otf");
+}
+@font-face {
+  font-family: "SCDeram4";
+  src:url("../assets/fonts/SCDream4.otf");
+}
+@font-face {
+  font-family: "SCDeram5";
+  src:url("../assets/fonts/SCDream5.otf");
+}
+@font-face {
+  font-family: "SCDeram6";
+  src:url("../assets/fonts/SCDream6.otf");
+}
+@font-face {
+  font-family: "SCDeram7";
+  src:url("../assets/fonts/SCDream7.otf");
+}
+@font-face {
+  font-family: "SCDeram8";
+  src:url("../assets/fonts/SCDream8.otf");
+}
+@font-face {
+  font-family: "SCDeram9";
+  src:url("../assets/fonts/SCDream9.otf");
+}
+
+:root {
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-family: "SCDeram4", serif;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  font-family: "SCDeram9", serif;
+  margin: 0;
+}
