@@ -1,13 +1,8 @@
 import Grid from '@mui/material/Grid2';
-import {styled} from "@mui/material";
 import {darkTheme} from "../theme.js";
+import {Skeleton} from "../layout/Layout.jsx";
 
-const Skeleton = styled('div')(({theme, height}) => ({
 
-    borderRadius: theme.shape.borderRadius,
-    height,
-    content: '" "',
-}));
 
 function Dashboard() {
     return (

@@ -1,0 +1,50 @@
+.home-img{
+    width: 50%;
+    height: 100vh;
+    background-color: #242b3a;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.home-go {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-go img {
+    width: 45px;
+    height: 45px;
+}
+
+.home-go h1 {
+  margin-left: 10px;
+    font-size: 44px;
+}
+
+.home-go p {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 150px;
+    color: rgba(255, 255, 255, 0.32);
+}
+.home-go button {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 250px;
+}
