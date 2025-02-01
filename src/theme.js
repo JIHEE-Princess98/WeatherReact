@@ -39,6 +39,7 @@ export const darkTheme = createTheme({
         },
         text: {
             primary: "#fff",
+            trans: "rgba(255,255,255,0.5)"
         },
         typography: {
             fontFamily: 'SCDeram4, Arial, sans-serif', // 기본 폰트 설정

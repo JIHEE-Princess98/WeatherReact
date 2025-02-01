@@ -14,16 +14,16 @@ import {Brightness4, Brightness7} from "@mui/icons-material";
 
 //icon
 import weatherIcon from '../assets/images/weather-icon.png';
-import WaterIcon from '@mui/icons-material/Water';
 import MapIcon from '@mui/icons-material/Map';
 import TuneIcon from '@mui/icons-material/Tune';
+import AirIcon from '@mui/icons-material/Air';
 
 
 const NAVIGATION = [
     {
         segment: 'Weather',
         title: 'Weather',
-        icon: <WaterIcon/>,
+        icon: <AirIcon/>,
     },
     {
         segment: 'Map',

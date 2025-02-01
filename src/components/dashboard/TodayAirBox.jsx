@@ -1,5 +1,4 @@
-
-export const SideBar = () => {
+export const TodayAirBox = () => {
     return(
         <div>
 
