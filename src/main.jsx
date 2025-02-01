@@ -8,6 +8,7 @@ import {Provider} from "react-redux";
 import {store} from "./store.js";
 
 
+
 const queryClient = new QueryClient();
 
 createRoot(document.getElementById('root')).render(

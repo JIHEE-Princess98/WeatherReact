@@ -1,7 +1,7 @@
 import {Routes, Route, useLocation} from "react-router-dom";
 import Home from "../view/Home.jsx";
 import Dashboard from "../view/Dashboard.jsx";
-import Map from "../view/Map.jsx";
+import Map from "../view/Maps.jsx";
 import Setting from "../view/Setting.jsx";
 import {DashboardLayout} from '@toolpad/core/DashboardLayout';
 import {PageContainer} from '@toolpad/core/PageContainer';
