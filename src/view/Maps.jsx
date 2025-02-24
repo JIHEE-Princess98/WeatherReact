@@ -13,7 +13,11 @@ import LayerSwitcher from "ol-layerswitcher";
 import 'ol-layerswitcher/dist/ol-layerswitcher.css';
 import 'ol/ol.css';
 import {useEffect, useState} from "react";
-import {Box} from "@mui/material";  // 스타일
+import {Box} from "@mui/material";
+import Paper from "@mui/material/Paper";
+import InputBase from "@mui/material/InputBase";
+import IconButton from "@mui/material/IconButton";
+import SearchIcon from "@mui/icons-material/Search";  // 스타일
 
 
 function Maps() {
