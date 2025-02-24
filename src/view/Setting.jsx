@@ -2,10 +2,11 @@ import Grid from "@mui/material/Grid2";
 import {Skeleton} from "../layout/Layout.jsx";
 import {darkTheme} from "../theme.js";
 import {Button, ButtonGroup} from "@mui/material";
-
 function Setting(){
     const btnOnColor = {backgroundColor: darkTheme.palette.background.paper,}
     const btnOffColor = {color: darkTheme.palette.text.trans, border: `none`}
+
+
     return(
         <div>
             <Grid container spacing={1}>
